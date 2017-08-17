@@ -30,7 +30,11 @@ function getName() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome() {
+  getName();
+  alert("Welcome, " + getName);
+  )
+}
 
 //////////////////PROBLEM 4////////////////////
 
