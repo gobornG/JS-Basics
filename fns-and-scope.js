@@ -20,7 +20,7 @@ function isTyler(name) {
 
 //Code Here
 function getName() {
-    var name = prompt("What is your name?")
+    var name = prompt("What is your name?");
     return name;
 }
 
@@ -33,8 +33,10 @@ function getName() {
 
 //Code Here
 function welcome() {
-
-}
+    return getName(){
+        return alert("Welcome, " + name);
+    }
+};
 
 
 //////////////////PROBLEM 4////////////////////
@@ -66,15 +68,18 @@ function welcome() {
 //Create a function called myName that returns your name
 
 //Code Here
-
+function myName() {
+    return "Garry";
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
 //Code Here
+var newMyName = myName();
 
 //Now alert the result of invoking newMyName
-
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
@@ -84,9 +89,15 @@ function welcome() {
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
 //Code Here
-
+function outerFn() {
+    return function() {
+        return "Garry";
+    }
+}
 //Now save the result of invoking outerFn into a variable called innerFn.
 
 //Code Here
+var innerFn = outerFn();
 
 //Now invoke innerFn.
+innerFn();
