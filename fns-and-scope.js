@@ -33,10 +33,11 @@ function getName() {
 
 //Code Here
 function welcome() {
-    return getName(){
-        return alert("Welcome, " + name);
+    function getName() {
+        return prompt("What is your name?");
     }
-};
+    return alert("Welcome " + getName());
+}
 
 
 //////////////////PROBLEM 4////////////////////
